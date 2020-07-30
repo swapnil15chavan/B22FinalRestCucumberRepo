@@ -1,0 +1,144 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my POST request test11",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test11",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002892700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the post request with \"Anil\" name and \"QA Manager\" job",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anil",
+                  "offset": 32
+                },
+                {
+                  "val": "QA Manager",
+                  "offset": 48
+                }
+              ],
+              "location": "MyPostFromTextFile.user_hit_the_post_request_with_json_data(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11887800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Test my POST request test22",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test22",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 838866299,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user hit the post request with \"Shilpa\" name and \"QA Lead\" job",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shilpa",
+                  "offset": 32
+                },
+                {
+                  "val": "QA Lead",
+                  "offset": 50
+                }
+              ],
+              "location": "MyPostFromTextFile.user_hit_the_post_request_with_json_data(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18980300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Test my POST request test",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 889087099,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user hit the post request with \"Snehal\" name and \"QA Engineer\" job",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Snehal",
+                  "offset": 32
+                },
+                {
+                  "val": "QA Engineer",
+                  "offset": 50
+                }
+              ],
+              "location": "MyPostFromTextFile.user_hit_the_post_request_with_json_data(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23747101,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test POST",
+    "description": "",
+    "id": "first-rest-assured-test-post",
+    "keyword": "Feature",
+    "uri": "PostUpdatedJson.feature"
+  }
+]

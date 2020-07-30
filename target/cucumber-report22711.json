@@ -1,0 +1,259 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my Get Method101",
+        "description": "",
+        "id": "first-get-rest-assured-test101;test-my-get-method101",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1630299,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "GETRequestTestSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1151984600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hit the get request",
+            "match": {
+              "location": "GETRequestTestSD.user_hit_the_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40485900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user checks the \"30\" count or size",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 17
+                }
+              ],
+              "location": "GETRequestTestSD.user_checks_the_count_or_size(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9598100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user checks data at path \"MRData.limit\" having value \"30\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.limit",
+                  "offset": 26
+                },
+                {
+                  "val": "30",
+                  "offset": 54
+                }
+              ],
+              "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17797100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[0].circuitId\" having value \"albert_park\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.CircuitTable.Circuits[0].circuitId",
+                  "offset": 26
+                },
+                {
+                  "val": "albert_park",
+                  "offset": 83
+                }
+              ],
+              "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14929600,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.basic.getRequestBasicsSD.GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(GETRequestTestSD.java:42)\r\n\tat ✽.Then user checks data at path \"MRData.CircuitTable.Circuits[3].circuitId\" having value \"MOnaco\" in jason(GetRequestTesting.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[3].circuitId\" having value \"MOnaco\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.CircuitTable.Circuits[3].circuitId",
+                  "offset": 26
+                },
+                {
+                  "val": "MOnaco",
+                  "offset": 83
+                }
+              ],
+              "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First GET Rest Assured test101",
+    "description": "",
+    "id": "first-get-rest-assured-test101",
+    "keyword": "Feature",
+    "uri": "GetRequestTesting.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my Get Method101",
+        "description": "",
+        "id": "first-get-rest-assured-test101;test-my-get-method101",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54399,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "GETRequestTestSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1019349801,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hit the get request",
+            "match": {
+              "location": "GETRequestTestSD.user_hit_the_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16078300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user checks the \"30\" count or size",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 17
+                }
+              ],
+              "location": "GETRequestTestSD.user_checks_the_count_or_size(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10948101,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user checks data at path \"MRData.limit\" having value \"30\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.limit",
+                  "offset": 26
+                },
+                {
+                  "val": "30",
+                  "offset": 54
+                }
+              ],
+              "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14088000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[0].circuitId\" having value \"albert_park\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.CircuitTable.Circuits[0].circuitId",
+                  "offset": 26
+                },
+                {
+                  "val": "albert_park",
+                  "offset": 83
+                }
+              ],
+              "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16563500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user checks data at path \"MRData.CircuitTable.Circuits[3].circuitId\" having value \"BAK\" in jason",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.CircuitTable.Circuits[3].circuitId",
+                  "offset": 26
+                },
+                {
+                  "val": "BAK",
+                  "offset": 83
+                }
+              ],
+              "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First GET Rest Assured test101",
+    "description": "",
+    "id": "first-get-rest-assured-test101",
+    "keyword": "Feature",
+    "uri": "GetRequestTesting2.feature"
+  }
+]

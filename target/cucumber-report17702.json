@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my Delete request",
+        "description": "",
+        "id": "delete-request-testing;test-my-delete-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2269883199,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the delete request",
+            "match": {
+              "location": "MyDeleteRequest.user_hit_the_post_request_with_String()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20179000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validate the status code",
+            "match": {
+              "location": "MyDeleteRequest.user_validate_the_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete request testing",
+    "description": "",
+    "id": "delete-request-testing",
+    "keyword": "Feature",
+    "uri": "com/basic/deleteRequestSD/PostFromTextFile.feature"
+  }
+]

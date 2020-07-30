@@ -1,0 +1,56 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my Get Method101",
+        "description": "",
+        "id": "first-get-rest-assured-test101;test-my-get-method101",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1033900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "HeadersValidationSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1084538201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checks headers \"Content-Type\" have \"application/json; charset\u003dutf-8\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Content-Type",
+                  "offset": 21
+                },
+                {
+                  "val": "application/json; charset\u003dutf-8",
+                  "offset": 41
+                }
+              ],
+              "location": "HeadersValidationSD.user_hit_the_get_request(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First GET Rest Assured test101",
+    "description": "",
+    "id": "first-get-rest-assured-test101",
+    "keyword": "Feature",
+    "uri": "HeadersFF.feature"
+  }
+]

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.basic.postWithDataTableSD.RunMyPostWithDataTableTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 0.06 sec <<< FAILURE!
+Given user hit the post request with "Tom" name(Scenario: Test my POST request test)  Time elapsed: 0 sec  <<< ERROR!
+java.nio.file.NoSuchFileException: D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.readAllBytes(Unknown Source)
+	at com.basic.postWithDataTableSD.MyPostWithDataTable.user_hit_the_post_request_with_json_data(MyPostWithDataTable.java:35)
+	at ?.Given user hit the post request with "Tom" name(PostWithDataTable.feature:5)
+
+Scenario: Test my POST request test  Time elapsed: 0 sec  <<< ERROR!
+java.nio.file.NoSuchFileException: D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.readAllBytes(Unknown Source)
+	at com.basic.postWithDataTableSD.MyPostWithDataTable.user_hit_the_post_request_with_json_data(MyPostWithDataTable.java:35)
+	at ?.Given user hit the post request with "Tom" name(PostWithDataTable.feature:5)
+

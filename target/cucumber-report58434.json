@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "1.I want to test google is up and running",
+        "description": "",
+        "id": "testing-basics;1.i-want-to-test-google-is-up-and-running",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1210201,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "google have website",
+            "match": {
+              "location": "MyStefDef.google_have_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2694369999,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hit google application",
+            "match": {
+              "location": "MyStefDef.abc()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47499,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I validate status code",
+            "match": {
+              "location": "MyStefDef.I_validate_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "2.I want to test that I am getting data from F1",
+        "description": "",
+        "id": "testing-basics;2.i-want-to-test-that-i-am-getting-data-from-f1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12799,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I hit F1 race application",
+            "match": {
+              "location": "F1StepDef.i_hit_F_race_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate the status code of F1 app",
+            "match": {
+              "location": "F1StepDef.i_validate_the_status_code_of_F_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing basics",
+    "description": "",
+    "id": "testing-basics",
+    "keyword": "Feature",
+    "uri": "MyFeatureFile.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "test google status code",
+        "description": "",
+        "id": "testing-google;test-google-status-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 565333700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User hit google applicaiton",
+            "match": {
+              "location": "TestGoogleStatusCodeSD.User_hit_google_applicaiton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 335400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user checks \"200\" status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 13
+                }
+              ],
+              "location": "TestGoogleStatusCodeSD.user_checks_status_code(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Google",
+    "description": "",
+    "id": "testing-google",
+    "keyword": "Feature",
+    "uri": "TestGoogleStatusCode.feature"
+  }
+]

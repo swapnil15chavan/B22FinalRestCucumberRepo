@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my Get Method106",
+        "description": "",
+        "id": "first-get-with-driven-rest-assured-test106;test-my-get-method106",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1953400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "DatatableGETRequestTestSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1074815401,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hit the get request",
+            "match": {
+              "location": "DatatableGETRequestTestSD.user_hit_the_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85826700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validate following in json",
+            "match": {
+              "location": "DatatableGETRequestTestSD.user_validate_following_in_json(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MRData.limit",
+                  "30"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "MRData.CircuitTable.Circuits[0].circuitId",
+                  "albert_park"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "MRData.CircuitTable.Circuits[10].circuitId",
+                  "red_bull_ring"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "MRData.total",
+                  "20"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First GET with Driven Rest Assured test106",
+    "description": "",
+    "id": "first-get-with-driven-rest-assured-test106",
+    "keyword": "Feature",
+    "uri": "DataTableGetRequestDataDriven.feature"
+  }
+]

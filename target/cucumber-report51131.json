@@ -1,0 +1,283 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "test all tabs on home page",
+        "description": "",
+        "id": "testing-cucumber-with-selenium;test-all-tabs-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16796535800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Opens seleniumhq website",
+            "match": {
+              "location": "FirstSeleniumScriptSD.User_Opens_seleniumhq_website11()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41636800,
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute \u0027evaluate\u0027 on \u0027Document\u0027: The string \u0027\u0027 is not a valid XPath expression.\n  (Session info: chrome\u003d84.0.4147.89)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027LAPTOP-EM9U1UPE\u0027, ip: \u0027192.168.43.43\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir\u003dC:\\Users\\chava\\AppData\\Local\\Temp\\scoped_dir6812_832554828}, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dANY, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:59354}, acceptInsecureCerts\u003dfalse, browserVersion\u003d84.0.4147.89, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dwindows, setWindowRect\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 55fce940f48e4d80d9c4abc633ee1e62\n*** Element info: {Using\u003dxpath, value\u003d}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)\r\n\tat com.basic.MyFirstSelenium.FirstSeleniumScriptSD.user_click_on_Project_tab(FirstSeleniumScriptSD.java:26)\r\n\tat ✽.When user click on \"Project\" tab(src/test/resources/com/basic/MyFirstSelenium/FirstSeleniumScriptFF.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user click on \"Project\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Project",
+                  "offset": 15
+                }
+              ],
+              "location": "FirstSeleniumScriptSD.user_click_on_Project_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user checks About tab",
+            "match": {
+              "location": "FirstSeleniumScriptSD.user_checks_About_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "test all tabs on home page22",
+        "description": "",
+        "id": "testing-cucumber-with-selenium;test-all-tabs-on-home-page22",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17657268200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Opens seleniumhq website",
+            "match": {
+              "location": "FirstSeleniumScriptSD.User_Opens_seleniumhq_website11()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26383099,
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute \u0027evaluate\u0027 on \u0027Document\u0027: The string \u0027\u0027 is not a valid XPath expression.\n  (Session info: chrome\u003d84.0.4147.89)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027LAPTOP-EM9U1UPE\u0027, ip: \u0027192.168.43.43\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir\u003dC:\\Users\\chava\\AppData\\Local\\Temp\\scoped_dir17736_458877202}, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dANY, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:59395}, acceptInsecureCerts\u003dfalse, browserVersion\u003d84.0.4147.89, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dwindows, setWindowRect\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: c23e6b318b673dc6fea19b6ec88575e6\n*** Element info: {Using\u003dxpath, value\u003d}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)\r\n\tat com.basic.MyFirstSelenium.FirstSeleniumScriptSD.user_click_on_Project_tab(FirstSeleniumScriptSD.java:26)\r\n\tat ✽.When user click on \"Documenation\" tab(src/test/resources/com/basic/MyFirstSelenium/FirstSeleniumScriptFF.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user click on \"Documenation\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Documenation",
+                  "offset": 15
+                }
+              ],
+              "location": "FirstSeleniumScriptSD.user_click_on_Project_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user checks About tab",
+            "match": {
+              "location": "FirstSeleniumScriptSD.user_checks_About_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing cucumber with selenium",
+    "description": "",
+    "id": "testing-cucumber-with-selenium",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/basic/MyFirstSelenium/FirstSeleniumScriptFF.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "test all tabs on home page33",
+        "description": "",
+        "id": "testing-cucumber-with-selenium;test-all-tabs-on-home-page33",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23700529501,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Opens seleniumhq website",
+            "match": {
+              "location": "FirstSeleniumScriptSD.User_Opens_seleniumhq_website11()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user click on Project tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user checks About tab",
+            "match": {
+              "location": "FirstSeleniumScriptSD.user_checks_About_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "test all tabs on home page44",
+        "description": "",
+        "id": "testing-cucumber-with-selenium;test-all-tabs-on-home-page44",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36400996900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Opens seleniumhq website",
+            "match": {
+              "location": "FirstSeleniumScriptSD.User_Opens_seleniumhq_website11()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user click on Project tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user checks About tab",
+            "match": {
+              "location": "FirstSeleniumScriptSD.user_checks_About_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "test all tabs on home page44",
+        "description": "",
+        "id": "testing-cucumber-with-selenium;test-all-tabs-on-home-page44",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13152993700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Opens seleniumhq website",
+            "match": {
+              "location": "FirstSeleniumScriptSD.User_Opens_seleniumhq_website11()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user enter following parameters",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "firstNmae",
+                  "Anil",
+                  "fkjdsakjf"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Kale"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Bank Name",
+                  "HDFC"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user click on submit button.",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "he checks address on profile page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing cucumber with selenium",
+    "description": "",
+    "id": "testing-cucumber-with-selenium",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/basic/MyFirstSelenium/FirstSeleniumScriptFF2.feature"
+  }
+]

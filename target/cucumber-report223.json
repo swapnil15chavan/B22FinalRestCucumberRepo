@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my POST request test",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4323901,
+              "error_message": "java.nio.file.NoSuchFileException: D:\\IBM\\workspace\\CucuRestAssured\\src\\test\\java\\com\\basic\\postFromTextFileSD\\user.json\r\n\tat sun.nio.fs.WindowsException.translateToIOException(Unknown Source)\r\n\tat sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)\r\n\tat sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)\r\n\tat sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)\r\n\tat java.nio.file.Files.newByteChannel(Unknown Source)\r\n\tat java.nio.file.Files.newByteChannel(Unknown Source)\r\n\tat java.nio.file.Files.readAllBytes(Unknown Source)\r\n\tat com.basic.postWithDataTableSD.MyPostWithDataTable.user_hit_the_post_request_with_json_data(MyPostWithDataTable.java:35)\r\n\tat ✽.Given user hit the post request with \"Tom\" name(PostWithDataTable.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user hit the post request with \"Tom\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 32
+                }
+              ],
+              "location": "MyPostWithDataTable.user_hit_the_post_request_with_json_data(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user validate followind data",
+            "match": {
+              "location": "MyPostWithDataTable.user_validate_followind_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "param",
+                  "Value"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "id",
+                  "notNull"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "statusCode",
+                  "201"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I will validate other parameter",
+            "match": {
+              "location": "MyPostWithDataTable.I_will_validate_other_parameter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test POST",
+    "description": "",
+    "id": "first-rest-assured-test-post",
+    "keyword": "Feature",
+    "uri": "PostWithDataTable.feature"
+  }
+]
